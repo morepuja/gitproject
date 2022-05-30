@@ -18,7 +18,7 @@ public class Test1 {
 	        
 		    WebElement d=driver.findElement(By.xpath("//input[@name='submit'])"));
 		    d.click();
-	        Thread.sleep(1000);
+	        Thread.sleep(3000);
 	        
 	        Alert alt=driver.switchTo().alert();
 	         //alt.dismiss();
