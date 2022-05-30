@@ -14,7 +14,7 @@ public class Test1 {
 			System.setProperty("webdriver.chrome.driver","C:\\Users\\bajad\\Desktop\\SELENIUM\\chromedriver.exe" );
 		    WebDriver driver= new ChromeDriver();
 		    driver.navigate().to("https://demo.guru99.com/test/delete_customer.php");
-		    Thread.sleep(1000);
+		    Thread.sleep(2000);
 	        
 		    WebElement d=driver.findElement(By.xpath("//input[@name='submit'])"));
 		    d.click();
